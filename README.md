@@ -14,3 +14,13 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Recommended build order
+1. domain/entities/
+2. domain/repositories/
+3. data/models/
+4. data/datasources/
+5. data/repositories/
+6. domain/usecases/
+7. presentation/bloc/
+8. presentation/pages/ + widgets/
